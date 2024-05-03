@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GEAR UP:THE ULTIMATE AUTO SUPPLY & GUIDE</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        /* Desktop styles */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .navbar ul {
+            display: flex;
+            list-style-type: none;
+        }
+        
+        .navbar ul li {
+            margin-right: 20px;
+        }
+        
+        .navbar ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        /* Mobile styles */
+        @media only screen and (max-width: 600px) {
+            .navbar ul {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 70px;
+                left: 0;
+                background-color: #fff;
+                width: 100%;
+                padding: 20px;
+                box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+            }
+            
+            .navbar ul.active {
+                display: flex;
+            }
+            
+            .bx-menu {
+                display: block;
+                font-size: 24px;
+                cursor: pointer;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="nav container">
+            <a href="index.html"><img src="logo.png"></a>
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <a href="#" class="logo">GEAR UP:<span>THE ULTIMATE AUTO SUPPLY & GUIDES</span></a>
+            <ul class="navbar">
+                <li> <a href="#home">Home</a></li>
+                <li> <a href="#cars">Parts</a></li>
+                <li> <a href="#about">About</a></li>
+                <li> <a href="#parts">Services</a></li>
+                <li> <a href="#tips">Tips</a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1>We Have All The Things <br> Your <span>Car</span> Needs</h1>
+            <p>Gear Up: Get ready with all the essentials your car needs <br> for smooth and safe journeys ahead.</p>
+        </div>
+
+    </section>
+    <section class="cars" id="cars">
+        <div class="heading">
+            <span>PARTS</span>
+            <h2>Our Inventory Includes Various Kinds Of Vehicle Components</h2>
+            <p>We have a diverse selection of parts for vehicles, covering a wide range of components needed for different types of cars.</p>
+        </div>
+        <div class="parts-container container">
+
+            <div class="box">
+                <img src="pic11.png" alt="">
+                <h3>ENGINE</h3>
+                <span>P250,000</span>
+                <i class='bx bxs-star'>(6 Reviews)</i>
+                <a href="form.html" class="btn">Order Now</a>
+            </div>
+            
+
+               <div class="box">
+                <img src="pic2.png" alt="">
+                <h3>PISTON RING</h3>
+                <span>P2,500</span>
+                <i class='bx bxs-star'>(6 Reviews)</i>
+                <a href="form.html" class="btn">Order Now</a>
+            </div>
+
+
+               <div class="box">
+                <img src="pic3.png" alt="">
+                <h3>OIL FILTER</h3>
+                <span>P500.00</span>
+                <i class='bx bxs-star'>(6 Reviews)</i>
+                <a href="form.html" class="btn">Order Now</a>
+            </div>
+
+
+               <div class="box">
+                <img src="pic4.png" alt="">
+                <h3>TIRES</h3>
+                <span>P2,500</span>
+                <i class='bx bxs-star'>(6 Reviews)</i>
+                <a href="form.html" class="btn">Order Now</a>
+            </div>
+
+
+               <div class="box">
+                <img src="pic55.png" alt="">
+                <h3>EXHAUST PIPE</h3>
+                <span>P15,000</span>
+                <i class='bx bxs-star'>(6 Reviews)</i>
+                <a href="form.html" class="btn">Order Now</a>
+            </div>
+
+
+               <div class="box">
+                <img src="pic66.png" alt="">
+                <h3>CAR SEAT</h3>
+                <span>P18,000</span>
+                <i class='bx bxs-star'>(6 Reviews)</i>
+                <a href="form.html" class="btn">Order Now</a>
+            </div>
+
+
+               <div class="box">
+                <img src="pic7.png" alt="">
+                <h3>CAR BRAKE</h3>
+                <span>P2,000</span>
+                <i class='bx bxs-star'>(6 Reviews)</i>
+                <a href="form.html" class="btn">Order Now</a>
+            </div>
+
+
+               <div class="box">
+                <img src="pic8.png" alt="">
+                <h3>ALTERNATOR</h3>
+                <span>4,000</span>
+                <i class='bx bxs-star'>(6 Reviews)</i>
+                <a href="form.html" class="btn">Order Now</a>
+            </div>
+
+
+               <div class="box">
+                <img src="pic9.png" alt="">
+                <h3>BATTERY</h3>
+                <span>P2,000</span>
+                <i class='bx bxs-star'>(6 Reviews)</i>
+                <a href="form.html" class="btn">Order Now</a>
+            </div>
+        </div>
+
+    </section>
+
+    <section>
+        <section class="about container" id="about">
+            <div class="about-img">
+                <img src="about.png" alt="">
+            </div>
+            <div class="about-text">
+                <span>ABOUT US</span>
+                <h2>Cheap Prices With <br> Quality Parts</h2>
+                <p>We offer excellent services like repair, maintenance and also we offer cheap prices of our auto motive parts.</p>
+            </div>
+        </section>
+    </section>
+    <section class="parts" id="parts">
+        <div class="heading">
+            <span>SERVICES</span>
+            <h2>Our services is Always Excellent</h2>
+            <p>Car Services Involve Various Maintenance And Repair Tasks Performed On Vehicles To Ensure They Are Running Smoothly And Safely.</p>
+        </div>
+        <div class="parts-container container">
+
+            <div class="box">
+                <img src="carwash.png" alt="">
+                <h3>Carwash</h3>
+                <span>P500.00</span>
+                <i class='bx bxs-star'>(6 Reviews)</i>
+                <a href="form.html" class="btn">Avail</a><br>
+                
+            </div>
+
+
+               <div class="box">
+                <img src="aircon.png" alt="">
+                <h3>Air Conditioning</h3>
+                <span>P5,000</span>
+                <i class='bx bxs-star'>(6 Reviews)</i>
+                <a href="form.html" class="btn">Avail</a><br>
+            </div>
+
+
+               <div class="box">
+                <img src="electrical.png" alt="">
+                <h3>Electrical Service</h3>
+                <span>P7,500</span>
+                <i class='bx bxs-star'>(6 Reviews)</i>
+                <a href="form.html" class="btn">Avail</a><br>
+            </div>
+
+
+               <div class="box">
+                <img src="changeoil.png" alt="">
+                <h3>Change Oil</h3>
+                <span>P1,300</span>
+                <i class='bx bxs-star'>(6 Reviews)</i>
+                <a href="form.html" class="btn">Avail</a><br>
+            </div>
+
+
+               <div class="box">
+                <img src="wheel.png" alt="">
+                <h3>Wheel Alignment</h3>
+                <span>P1,200</span>
+                <i class='bx bxs-star'>(6 Reviews)</i>
+                <a href="form.html" class="btn">Avail</a><br>
+            </div>
+
+
+               <div class="box">
+                <img src="Shocks Absorber.jpg" alt="">
+                <h3>Shocks Absorber</h3>
+                <span>P1,100</span>
+                <i class='bx bxs-star'>(6 Reviews)</i>
+                <a href="form.html" class="btn">Avail</a><br>
+            </div>
+        </div>
+    </section>
+    <section class="tips" id="tips">
+        <div class="heading">
+            <span>Our Services Tips</span>
+            <h2>Helpful advice for service enchancement</h2>
+            <p>Our services tips offer valuable advice and guidance to help users optimize their experience and make the most of the services provided</p>
+        </div>
+        <div class="blog-container container">
+            <div class="box">
+                <img src="vehicle.png" alt="">
+                <span>October 31 2023</span>
+                <h3>Essential Car Maintenance Tips:</h3>
+                <p>Your vehicle is more than just a mode of transportation; it's an investment that carries you through countless journeys and adventures. To ensure it serves you well for years to come, regular car maintenance is essential. Proper care not only extends your vehicle's lifespan but also enhances its performance and safety.</p>
+                <a href="tip1.html" class="blog-btn">Read More<i class='bx bx-right-arrow-alt'></i> </a>
+            </div>
+
+             <div class="box">
+                <img src="gps.png" alt="">
+                <span>May 26 2022</span>
+                <h3>DIY: Installing a GPS system on my car without cutting a single wire:</h3>
+                <p>A GPS is a must in any car nowadays. It doesn't just help you locate your car in case of theft, but, if you have children who also drive your car having a GPS is helpful in keeping an eye on them. I am someone who is caring for both cases. I am very wary about my car being stolen and my I have people other than me driving my car. That is why I decided to buy a GPS for my car.</p>
+                <a href="tip2.html" class="blog-btn">Read More<i class='bx bx-right-arrow-alt'></i> </a>
+            </div>
+
+             <div class="box">
+                <img src="oil.png" alt="">
+                <span>January 14 2022</span>
+                <h3>How To Choose The Right Oil For Your Vehicle:</h3>
+                <p>Engine oil enables your vehicle to run smoothly, and choosing the oil for your engine may seem a challenging task. There is a lot of information regarding various engine oil choices, but the first thing you need to do is check your vehicle's manual. It lists the recommended oil weight, standard format, and viscosity grade.</p>
+                <a href="tip3.html" class="blog-btn">Read More<i class='bx bx-right-arrow-alt'></i> </a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-container container">
+            <div class="footer-box">
+                <div class="social">
+                    
+                    <a href="https://www.facebook.com/rigel.balili?mibextid=ZbWKwL"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://www.instagram.com/cerberus_0720?igsh=bGZjMWNxaDF0czZj"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://youtube.com/@RigelBalili?si=ro9g8oybV3LY-MED"><i class='bx bxl-youtube'></i></a>
+                </div>
+            </div>
+
+            <div class="footer-box">
+                <h3 class="centered">Location</h3>
+                <p>146 F Kaingin Road <br>
+                   Brgy.Apolonio Samson <br>
+                   Quezon City</p>
+            </div>
+
+            <div class="footer-box">
+                <h3>Contact</h3>
+               <p>0994 853 5411</p>
+               <p>0960 680 9817</p>
+            </div>
+
+            <div class="footer-box">
+                <img src="logo.png">
+            </div>
+        </div>
+         
+        </div>
+    </footer>
+
+    <div class="copyright">
+        <p>&#169; All Right Reserved</p>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var menuIcon = document.getElementById("menu-icon");
+            var navbar = document.getElementById("navbar");
+    
+            menuIcon.addEventListener("click", function() {
+                navbar.classList.toggle("active");
+            });
+        });
+    </script>
+    
+
+    <script src="main.js"></script>
+
+    
+</body>
+</html>
